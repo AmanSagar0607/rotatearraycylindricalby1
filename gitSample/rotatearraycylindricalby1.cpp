@@ -19,11 +19,7 @@ void rotateArray(int arr[], int n, int k)
         swap(arr[i], arr[k - i - 1]);
     }
 
-    // Reverse the second part from k to n-k elements
-    for (int i = k; i < (n + k) / 2; i++)
-    {
-        swap(arr[i], arr[n + k - i - 1]);
-    }
+   
 }
 
 int main()
